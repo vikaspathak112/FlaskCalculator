@@ -1,6 +1,6 @@
 # FlaskCalculator
 
-Learning Plan Exercise (1) Part (a)
+Learning Plan Exercise-(1) Part-(a)
 - Create a simple calculator using REST APIs and Flask
   
 In the given solution, 4 basic arithmetic operations are implemented using REST API -  Addition , Subtraction, Multiplication and Division
