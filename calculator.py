@@ -18,7 +18,10 @@ def calculate(operator, first_operand, second_operand):
 	elif operator == 'multiply':
 		result = str(first_operand * second_operand)
 	elif operator == 'divide':
-		result = str(first_operand / second_operand)
+		if second_operand == 0:
+			result = "Divisor cannot be 0"
+		else:
+			result = str(first_operand / second_operand)
 
 	return jsonify({'result':result})
 
